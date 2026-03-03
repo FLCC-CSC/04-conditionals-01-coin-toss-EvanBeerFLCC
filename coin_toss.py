@@ -1,12 +1,26 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Evan Beer
+# DATE: 3/3/26
+# BRIEF DESCRIPTION: Flips a coin to either heads or tails.  
+ 
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
-########## ENTER YER CODE BELOW THIS LINE ##########
+########## ENTER YOUR CODE BELOW THIS LINE ##########
+
+import random
+
+def main():
+    coin_toss()
+
+def coin_toss():
+    random_number = random.randint(1 , 100)
+    print('===== Coin Flipper =====')
+    if random_number >= 51: print('Tails')
+    else: print('Heads')
+
+main()
 
 
 
@@ -15,9 +29,7 @@
 
 
 
-
-
-########### END YER CODE ABOVE THIS LINE ###########
+########### END YOUR CODE ABOVE THIS LINE ###########
 
 
 ########################################
@@ -44,6 +56,7 @@ Tails
 
 1. What was the hardest part of completing this lab? 
 
+Getting the syntax for lines of code right.
 
 
 
